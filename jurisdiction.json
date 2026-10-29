@@ -1,0 +1,11 @@
+{
+  "path": "eg",
+  "code": "EG",
+  "name": "Egypt",
+  "level": "country",
+  "repo": "https://github.com/lexifina/egypt-law",
+  "build": "first build: Constitution (2014, as amended 2019), English translation by the State Information Service (1 version, oldest available, 2019-04-23)",
+  "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
+  "register_date": "2026-10-28",
+  "sources": 1
+}

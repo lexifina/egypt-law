@@ -1,0 +1,19 @@
+{
+ "country": "EG",
+ "acts": [
+  {
+   "slug": "constitution",
+   "short": "Constitution",
+   "title": "Constitution of the Arab Republic of Egypt (2014, as amended 2019)",
+   "url": "https://sis.gov.eg/en/egypt/constitution-of-egypt/",
+   "versions": [
+    {
+     "from": "2019-04-23",
+     "units": 255,
+     "source_url": "https://sis.gov.eg/media/67726/dustor-eng.pdf",
+     "sha256": "b5a83ed1564bd2b37d8e77b6a586397c16be963cec61bfe3d851081d570c7294"
+    }
+   ]
+  }
+ ]
+}

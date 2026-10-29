@@ -1,0 +1,13 @@
+The legal text is the Constitution of the Arab Republic of Egypt (2014, with the amendments approved by referendum
+in April 2019), in the English translation published by the State Information Service
+(https://sis.gov.eg/media/67726/dustor-eng.pdf), retrieved 29 October 2026. The PDF states no licence; the
+official Arabic text is the authoritative one. The translation's own typing errors are kept as printed.
+
+Changes made by Lexifina: each version was converted to one Markdown file per provision, one paragraph per line;
+spacing, quotes and dashes were normalised; headings, page numbers and footnote markers were left out; and the
+versions were arranged as git commits credited to the publisher. The wording of the law was not changed. The
+publisher does not endorse this repository.
+
+Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are
+dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
