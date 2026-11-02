@@ -1,12 +1,33 @@
 The legal text is the Constitution of the Arab Republic of Egypt (2014, with the amendments approved by referendum
-in April 2019), in the English translation published by the State Information Service
-(https://sis.gov.eg/media/67726/dustor-eng.pdf), retrieved 29 October 2026. The PDF states no licence; the
-official Arabic text is the authoritative one. The translation's own typing errors are kept as printed.
+in April 2019), as published by the State Information Service (sis.gov.eg), a state body:
+
+- `dustur/`: the Arabic text, the authoritative one, from the State Information Service Arabic constitution page
+  (https://sis.gov.eg/ar/مصر/الدستور-المصرى/), retrieved 2 November 2026;
+- `constitution/`: the English translation (https://sis.gov.eg/media/67726/dustor-eng.pdf), retrieved 29 October
+  2026. The translation's own typing errors are kept as printed.
+
+Official texts are not protected by copyright in Egypt. Law No. 82 of 2002 on the Protection of Intellectual Property
+Rights, article 141 (text as consolidated by the Court of Cassation information centre):
+
+    مادة 141: لا تشمل الحماية مجرد الأفكار والإجراءات وأساليب العمل وطرق التشغيل والمفاهيم والمبادئ والاكتشافات
+    والبيانات، ولو كان معبراً عنها أو موصوفة أو موضحة أو مدرجة في مصنف.
+    كذلك لا تشمل ما يلي:
+    أولاً- الوثائق الرسمية، أياً كانت لغتها الأصلية أو اللغة المنقولة إليها، مثل نصوص القوانين واللوائح، والقرارات،
+    والاتفاقيات الدولية، والأحكام القضائية، وأحكام المحكمين، والقرارات الصادرة من اللجان الإدارية ذات الاختصاص
+    القضائي.
+    ثانياً- أخبار الحوادث والوقائع الجارية التي تكون مجرد أخبار صحفية.
+    ومع ذلك تتمتع مجموعات ما تقدم بالحماية إذا تميز جمعها بالابتكار في الترتيب والعرض أو بأي مجهود شخصي جدير
+    بالحماية.
+
+In English (Lexifina's rendering, not an official translation): protection does not cover "official documents,
+whatever their original language or the language into which they are translated, such as the texts of laws,
+regulations, decisions, international agreements, judicial rulings, arbitral awards and the decisions of
+administrative committees with judicial competence."
 
 Changes made by Lexifina: each version was converted to one Markdown file per provision, one paragraph per line;
-spacing, quotes and dashes were normalised; headings, page numbers and footnote markers were left out; and the
-versions were arranged as git commits credited to the publisher. The wording of the law was not changed. The
-publisher does not endorse this repository.
+spacing, quotes and dashes were normalised, and in the Arabic text tatweel (letter stretching) was removed; headings,
+page numbers, footnotes and footnote markers were left out; and the versions were arranged as git commits credited to
+the publisher. The wording of the law was not changed. The publisher does not endorse this repository.
 
 Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are
 dedicated to the public domain under CC0 1.0 Universal:

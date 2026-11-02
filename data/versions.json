@@ -14,6 +14,20 @@
      "sha256": "b5a83ed1564bd2b37d8e77b6a586397c16be963cec61bfe3d851081d570c7294"
     }
    ]
+  },
+  {
+   "slug": "dustur",
+   "short": "الدستور",
+   "title": "دستور جمهورية مصر العربية (2014، بتعديلات 2019)",
+   "url": "https://sis.gov.eg/ar/%D9%85%D8%B5%D8%B1/%D8%A7%D9%84%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%89/",
+   "versions": [
+    {
+     "from": "2019-04-23",
+     "units": 258,
+     "source_url": "https://sis.gov.eg/ar/%D9%85%D8%B5%D8%B1/%D8%A7%D9%84%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%89/",
+     "sha256": "154f98ff6d54fe9f894df928a3d86c7360aac1b08f0b5a541039218b4b98704b"
+    }
+   ]
   }
  ]
 }
