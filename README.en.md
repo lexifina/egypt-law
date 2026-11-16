@@ -62,6 +62,7 @@ Each text is the oldest version available and is credited to the publisher, `Sta
 - `tools/build.py` writes the history from that one corpus file, and the same corpus gives the same commit hashes; no second build has been compared yet.
 - The wording is not corrected: the translation's own typing errors are kept as printed; only spacing, quotes, dashes and the Arabic tatweel (letter stretching) are normalised.
 - History is append-only: the Arabic text was added as a new commit after the first build, not written into it.
+- [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -82,6 +83,10 @@ Each text is the oldest version available and is credited to the publisher, `Sta
 See [`LICENSE`](LICENSE). Official documents, whatever their language or the language they are translated into, including the texts of laws, are excluded from copyright by article 141 of Law No. 82 of 2002 on the Protection of Intellectual Property Rights. Lexifina's own contributions (the history, commit messages, tables and tools) are CC0 1.0.
 
 No AI model wrote, translated or corrected legal text; the scripts were written by an AI model, and no model runs when the history is built (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/README.en.md): charts drawn from this repository. Not drawn yet.
 
 ## More
 
