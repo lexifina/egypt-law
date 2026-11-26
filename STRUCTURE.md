@@ -9,6 +9,9 @@ Every folder holds at most 1,000 entries.
 | `constitution/` | Its English translation by the State Information Service (not an official text) | one article |
 | `قوانين/<السنة>/<الرقم>-<الموضوع>/` | Laws and codes, by year and number of the law | one article (`مادة-001.md`) |
 | `أحكام/المحكمة-الدستورية-العليا/<السنة>/<الشهر>/` | Judgments and decisions of the Supreme Constitutional Court, by the day they were given | one judgment (`<الرقم>-لسنة-<السنة القضائية>-قضائية-<النوع>.md`, the type being دستورية, تنازع, تفسير or منازعة-تنفيذ) |
+| `أحكام/محكمة-النقض/<السنة>/<الشهر>/` | Rulings of the Court of Cassation, by session day | one ruling (`<رقم الطعن>-لسنة-<السنة القضائية>-قضائية.md`) |
+| `أحكام/مجلس-الدولة/<المحكمة>/<السنة>/<الشهر>/` | Rulings of the Council of State courts (المحكمة-الإدارية-العليا, محكمة-القضاء-الإداري, المحاكم-التأديبية, المحاكم-الإدارية), by the day given | one ruling (`<الرقم>-لسنة-<السنة>.md`) |
+| `فتاوى/مجلس-الدولة/<الجهة>/<السنة>/<الشهر>/` | Opinions of the Council of State Fatwa and Legislation departments, by the day given | one opinion |
 | `الجريدة-الرسمية/<السنة>/` | Issues of al-Jarida al-Rasmiya (the Official Gazette) | one issue (`العدد-<n>.md`, `العدد-<n>-مكرر.md`, `العدد-<n>-مكرر-أ.md`) |
 | `الوقائع-المصرية/<السنة>/` | Issues of al-Waqa'i al-Misriya (the gazette supplement for decrees and decisions) | one issue |
 | `data/`, `tools/` | Tables, charts and the tools to read the history | |
@@ -31,6 +34,7 @@ Every folder holds at most 1,000 entries.
   says so (`Source-status: unofficial copy`).
 - Laws and codes: manshurat.org, an unofficial publisher, until a free official source exists (`Source-status:
   unofficial copy`). Laws are not protected by copyright (Law 82/2002, art. 141).
+- Court of Cassation and Council of State rulings and opinions: secondary copies until an open official source exists (the Court of Cassation meters its full text; the Council of State has no open database): manshurat.org and mohamah.net. Every such commit says so (`Source-copy:`, `Source-copy-status: secondary copy; verification against the official text pending`).
 - Names of parties in protected cases are not in paths or trailers.
 
 `dustur/` was renamed `دستور/` on 2026-11-26 (a rename only; no text changed).
