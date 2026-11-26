@@ -1,7 +1,7 @@
 The legal text is the Constitution of the Arab Republic of Egypt (2014, with the amendments approved by referendum
 in April 2019), as published by the State Information Service (sis.gov.eg), a state body:
 
-- `dustur/`: the Arabic text, the authoritative one, from the State Information Service Arabic constitution page
+- `دستور/`: the Arabic text, the authoritative one, from the State Information Service Arabic constitution page
   (https://sis.gov.eg/ar/مصر/الدستور-المصرى/), retrieved 2 November 2026;
 - `constitution/`: the English translation (https://sis.gov.eg/media/67726/dustor-eng.pdf), retrieved 29 October
   2026. The translation's own typing errors are kept as printed.

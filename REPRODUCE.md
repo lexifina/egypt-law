@@ -16,7 +16,7 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | Act | Title | Versions | Span |
 | --- | --- | ---: | --- |
 | `constitution` | Constitution of the Arab Republic of Egypt (2014, as amended 2019) | 1 | 2019-04-23 to 2019-04-23 |
-| `dustur` | دستور جمهورية مصر العربية (2014، بتعديلات 2019) | 1 | 2019-04-23 to 2019-04-23 |
+| `دستور` | دستور جمهورية مصر العربية (2014، بتعديلات 2019) | 1 | 2019-04-23 to 2019-04-23 |
 
 The build made 2 commits:
 

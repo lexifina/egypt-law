@@ -13,20 +13,20 @@ Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git h
 
 **What is in it now:** the Constitution of 2014 as amended in April 2019, in one version, twice: the official Arabic text (the Preamble and 257 articles, three of them "bis") and the State Information Service's English translation (the Preamble and 254 articles). No statute is here yet. [`REPRODUCE.md`](REPRODUCE.md) lists both texts with their versions and says how the files were made; each folder has a README listing its articles.
 
-Each text is a folder, one file per article: `dustur/art-001.md` is Article 1 of the Arabic text, `dustur/art-150-bis.md` is Article 150 bis, and `constitution/art-001.md` is Article 1 in English.
+Each text is a folder, one file per article: `دستور/art-001.md` is Article 1 of the Arabic text, `دستور/art-150-bis.md` is Article 150 bis, and `constitution/art-001.md` is Article 1 in English.
 
-The Arabic text (`dustur/`) is the authoritative one, as the State Information Service prints it; `constitution/` is its English translation, not an official text of the law.
+The Arabic text (`دستور/`) is the authoritative one, as the State Information Service prints it; `constitution/` is its English translation, not an official text of the law.
 
 ## Questions as git commands
 
 | Question | Command |
 | --- | --- |
-| Every change to Article 1 of the Constitution | `git log -p --word-diff -- dustur/art-001.md` |
-| Which law wrote each line of Article 1? | `git blame dustur/art-001.md` |
-| Every version of the Constitution, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- "dustur/art-*"` |
-| Article 1 as in force on 1 January 2024 | `python tools/on.py 2024-01-01 dustur art-001` |
+| Every change to Article 1 of the Constitution | `git log -p --word-diff -- دستور/art-001.md` |
+| Which law wrote each line of Article 1? | `git blame دستور/art-001.md` |
+| Every version of the Constitution, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- "دستور/art-*"` |
+| Article 1 as in force on 1 January 2024 | `python tools/on.py 2024-01-01 دستور art-001` |
 
-For the English translation, put `constitution` in place of `dustur`.
+For the English translation, put `constitution` in place of `دستور`.
 
 **Outside git**, we also host this record publicly, for free:
 
@@ -42,7 +42,7 @@ Both assistants read the record through the free Global law connector (MCP, `htt
 ```sh
 git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
 python3 tools/countries.py add egypt/national/acts
-python3 tools/law.py show 2026-01-01 egypt/national/acts/dustur/art-001.md
+python3 tools/law.py show 2026-01-01 egypt/national/acts/دستور/art-001.md
 ```
 
 Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).

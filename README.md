@@ -13,20 +13,20 @@
 
 **المحتوى الحالي:** دستور 2014 بصيغته المعدَّلة في أبريل 2019، في نسخة واحدة، مرتين: النص العربي الرسمي (الديباجة و257 مادة، ثلاث منها "مكررًا") والترجمة الإنجليزية الصادرة عن الهيئة العامة للاستعلامات (الديباجة و254 مادة). ولا يوجد هنا أي قانون حتى الآن. يسرد [`REPRODUCE.md`](REPRODUCE.md) النصين مع نسخهما ويبيّن كيف أُعدّت الملفات؛ وفي كل مجلد ملف README يسرد مواده.
 
-كل نص مجلد، فيه ملف لكل مادة: `dustur/art-001.md` هي المادة 1 من النص العربي، و`dustur/art-150-bis.md` هي المادة 150 مكررًا، و`constitution/art-001.md` هي المادة 1 بالإنجليزية.
+كل نص مجلد، فيه ملف لكل مادة: `دستور/art-001.md` هي المادة 1 من النص العربي، و`دستور/art-150-bis.md` هي المادة 150 مكررًا، و`constitution/art-001.md` هي المادة 1 بالإنجليزية.
 
-النص العربي (`dustur/`) هو النص المعتمد، كما تنشره الهيئة العامة للاستعلامات؛ أما `constitution/` فهو ترجمته الإنجليزية، وليس نصًا رسميًا للقانون.
+النص العربي (`دستور/`) هو النص المعتمد، كما تنشره الهيئة العامة للاستعلامات؛ أما `constitution/` فهو ترجمته الإنجليزية، وليس نصًا رسميًا للقانون.
 
 ## الأسئلة في صورة أوامر git
 
 | السؤال | الأمر |
 | --- | --- |
-| كل تعديل طرأ على المادة 1 من الدستور | `git log -p --word-diff -- dustur/art-001.md` |
-| أي قانون كتب كل سطر من المادة 1؟ | `git blame dustur/art-001.md` |
-| كل نسخ الدستور، مع يوم نفاذ كل منها | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- "dustur/art-*"` |
-| المادة 1 كما كانت نافذة في 1 يناير 2024 | `python tools/on.py 2024-01-01 dustur art-001` |
+| كل تعديل طرأ على المادة 1 من الدستور | `git log -p --word-diff -- دستور/art-001.md` |
+| أي قانون كتب كل سطر من المادة 1؟ | `git blame دستور/art-001.md` |
+| كل نسخ الدستور، مع يوم نفاذ كل منها | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- "دستور/art-*"` |
+| المادة 1 كما كانت نافذة في 1 يناير 2024 | `python tools/on.py 2024-01-01 دستور art-001` |
 
-للترجمة الإنجليزية، ضع `constitution` مكان `dustur`.
+للترجمة الإنجليزية، ضع `constitution` مكان `دستور`.
 
 **خارج git**، نستضيف هذا السجل أيضًا للعموم، مجانًا:
 
@@ -42,7 +42,7 @@
 ```sh
 git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
 python3 tools/countries.py add egypt/national/acts
-python3 tools/law.py show 2026-01-01 egypt/national/acts/dustur/art-001.md
+python3 tools/law.py show 2026-01-01 egypt/national/acts/دستور/art-001.md
 ```
 
 عند فتح النسخة المستنسخة في Claude Code أو Cursor أو VS Code أو Codex، تشغّل أيضًا خادم MCP محليًا بالأدوات نفسها ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
