@@ -11,7 +11,7 @@ The law of Egypt as a git history: one file per article, one commit per version 
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Egypt's national law, which global-law reads at `egypt/national/acts/`.
 
-**What is in it now:** the Constitution of 2014 as amended in April 2019, in one version, twice: the official Arabic text (the Preamble and 257 articles, three of them "bis") and the State Information Service's English translation (the Preamble and 254 articles). No statute is here yet. [`REPRODUCE.md`](REPRODUCE.md) lists both texts with their versions and says how the files were made; each folder has a README listing its articles.
+**What is in it now:** the Constitution of 2014 as amended in 2019 (Arabic, and the State Information Service's English translation); 149 laws (1960-2024, unofficial copies from manshurat.org); 718 issues of the Official Gazette and al-Waqa'i al-Misriya (2022-2026); and 9,173 judgments: 6,903 of the Supreme Constitutional Court (1970-2026), 2,252 of the Court of Cassation and 18 of the Supreme Administrative Court. The main codes are here only through their amending laws. [`STRUCTURE.md`](STRUCTURE.md) sets out the folders; [`REPRODUCE.md`](REPRODUCE.md) says how the first files were made.
 
 Each text is a folder, one file per article: `دستور/art-001.md` is Article 1 of the Arabic text, `دستور/art-150-bis.md` is Article 150 bis, and `constitution/art-001.md` is Article 1 in English.
 
